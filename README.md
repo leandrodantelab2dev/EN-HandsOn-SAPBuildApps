@@ -1,6 +1,6 @@
 # HandsOn-SAPBuildApps
 
-## Descrição
+## Descripción
 En este prácticos será la construcción de una aplicación de lista de productos con la funcionalidad de la búsqueda de productos con QRCode.
 Utilizaremos el servicio Odata Northwind, como nuestro back-end.
 

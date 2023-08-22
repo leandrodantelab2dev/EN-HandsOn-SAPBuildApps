@@ -1,68 +1,66 @@
-# Exercício 1 - Criação do APP e Configuração Inicial de Tema
+# Ejercicio 1 - Creación de la aplicación y la configuración inicial del tema
 
-Bem Vindo! Ao acessar o Lobby do SAP Build tem acessos à todas as ferramentas para criar aplicações Low-Code.
+¡Bienvenido! Al acceder al lobby de SAP Build, tiene acceso a todas las herramientas para crear aplicaciones de bajo código.
 
-> #### Escopo inicial da nossa aplicação.
-> - Lista de Produto, provindos de um serviço Odata, chamado Northwind. Essa lista irá conter Icon, Titulo e Preço.
-> - Mecanismo de pesquisa através de QR Code Scan.
-> - Detalhes do Produto em uma pagina secundária.
+> #### Alcance inicial de nuestra aplicación.
+> - Lista de productos, proveniente de un servicio Odata llamado Northwind. Esta lista contendrá icono, título y precio.
+> - Mecanismo de búsqueda a través de la exploración de código QR.
+> - Detalles del producto en una página secundaria.
 
-Vamos iniciar nosso processo de desenvolvimento clicando no botão __Create__.
+Comencemos nuestro proceso de desarrollo haciendo clic en el botón __Create__.
 
 ![MDK](images/img1.png)
 
-Nesta modal podemos selecionar qual tipo de aplicação iremos construir.
-
-Selecione __Build an Application__.
+En esta pantalla podemos seleccionar qué tipo de aplicación construiremos.
+Seleccionar __Build an Application__.
 
 ![MDK](images/img2.png)
 
-Dentro do SAP Build Apps podemos montar, __Web & Mobile Application__, ferramenta para construir uma aplicação front-end desenvolvido em Low-code; __Application Backend__ ferramenta para construir "Mockservers", constuindo entidades; E o __Pro Developers__ que cria um projeto Fiori no método tradicional.
+Dentro de SAP Build Apps podemos ensamblar, __Web & Mobile Application__, Herramienta para construir una aplicación front-end desarrollada en un código bajo; __Application Backend__ herramienta para construir "servidores simulados", entidades de construcción; Y el __Pro Developers__ Eso crea un proyecto Fiori en el método tradicional.
 
 ![MDK](images/img3.png)
 
-Daremos um nome e descrição ao Projeto
+Daremos un nombre y descripción al proyecto
 ```
 HandsOn_ProductList_[Nombre]
 ```
 
-Seguiremos com o botão __Create__.
+Seguiremos con el botón __Create__.
 
 ![MDK](images/img4.png)
 
-Aguarde a criação do projeto.
+Espere la creación del proyecto.
 
 ![MDK](images/img5.png)
 
-Vamos realizar a customização do tema, para sua aplicação ficar uma estilização unica.
+Realizaremos la personalización del tema, para que su aplicación sea una única estilización.
 
 ![MDK](images/img6.png)
 
-No canto inferior esquerdo podemos realizar a alteração do tema, de Fiori 1.7 para Universal Theme.
+En la esquina inferior izquierda podemos hacer el cambio del tema, desde Fiori 1.7 hasta el tema universal.
 
-O thema custimiza toda aplicação com padrões de cores e Fonts.
+El tema cuesta toda la aplicación con estándares de color y fuente.
 
 ![MDK](images/img7.png)
 
 Selecione Universal Theme.
+Seleccione el tema universal.
 
 ![MDK](images/img8.png)
 
-E aceite a alteração do tema.
-
-
+Y acepta el cambio del tema.
 
 ![MDK](images/img9.png)
 
-Aproveite para selecionar suas cores favoritas para deixar a aplicação do seu jeito.
+Aproveche la oportunidad para seleccionar sus colores favoritos para dejar su camino. 
 
-Feito isso salve as alterações.
+Eso hizo guardar los cambios.
 
-Clique em __Save__.
+Clickea en__Save__.
 
 ![MDK](images/img10.png)
 ![MDK](images/img11.png)
 
 
-## Próximo Passo:
-[Exercício 02 - Configuração do Data Provider](/exercises/ex2/README.md)
+## Proximo paso:
+[Ejercicio 02 - Configuración del proveedor de datos](/exercises/ex2/README.md)

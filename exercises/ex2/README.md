@@ -1,68 +1,68 @@
-# Exercício 2 - Configuração do Data Provider
+# Ejercicio 2 - Configuración del proveedor de datos
 
-Agora vamos fazer a integração com o nosso Backend.
+Ahora integremos con nuestro backend.
 
-Navegue para a aba __Data__.
+Navegue a la pestaña __Data__.
 
 ![MDK](images/img1.png)
 
-Nesta aba temos muitas opções de integrações.
-Sendo integração com o SAP S/4, também utilizando o Conectivity > Destination.
+En esta pestaña tenemos muchas opciones de integración.
+Estar integrado con SAP S/4, también utilizando el Conectivity > Destination.
 
-No nosso cenário utilizaremos __OData Integration__.
+En nuestro escenario usaremos __OData Integration__.
 
 ![MDK](images/img2.png)
 
-Esse é o metadata do nosso backend
+Estos son los metadatos de nuestro backend
 
 https://services.odata.org/V3/OData/OData.svc/
 
 ![MDK](images/img3.png)
 
-Cole o endpoint no Base API URL, e clique em __Verify URL__, para carregar as entidades presentes do metadata.
+Cole o endpoint sem campo "Base API URL", y hacer clic __Verify URL__, para llevar las entidades actuales de los metadatos.
 
 ![MDK](images/img4.png)
 
-Selecione a entidade Products.
+Seleccione la entidad de productos.
 
-E salve, Clique __SAVE DATA RESOURCES__.
+Y guardar, hacer clic en __SAVE DATA RESOURCES__.
 
 ![MDK](images/img5.png)
 
-Agora temos a entidade __Products__ disponivel.
+Ahora tenemos la entidad __Products__ disponible.
 
-Clique em __Save__.
+Clickea en __Save__.
 
 ![MDK](images/img6.png)
 
-Tendo o __Data__ já configurada, temos que adicionar na nossa página, volte para o Canvas, clicando em __UI Canvas__.
+Con el __Data__ Ya configurado, tenemos que agregar a nuestra página, volver a Canvas, haciendo clic en __UI Canvas__.
 
-Para acessar as variaveis, podemos clicar no Swich Button, e acessar as variveis da página.
+Para acceder a las variables, podemos hacer clic en el Switch Button y acceder a las variables en la página.
 
 ![MDK](images/img7.png)
 
-Na Aba Data Variables, clique em __ADD DATA VARIABLES__.
+En la pestaña Data Variables, haga clic en __ADD DATA VARIABLES__.
 
 ![MDK](images/img8.png)
 
-E Selecione a entidade Products.
+Y seleccione la entidad de productos.
 
 ![MDK](images/img9.png)
 
-Renomeie para
+Rebautizar
 ```
 dv_products
 ```
 
-E salve, clicando em __SAVE__.
+Y guardar, hacer clic en __SAVE__.
 
 ![MDK](images/img10.png)
 
-Volte para o formato gráfico clicando novamente no Switch Button.
+Vuelva al formato gráfico haciendo clic nuevamente en el Switch Button.
 
 ![MDK](images/img11.png)
 
-## Próximo Passo:
+## Proximo paso:
 
-[Exercício 03 - Criação da Home Page](/exercises/ex3/README.md)
+[Ejercicio 03 - Creación de la página de inicio](/exercises/ex3/README.md)
 

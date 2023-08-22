@@ -1,38 +1,36 @@
-## Exercício 7 - Execução e Testes
+## Ejercicio 7 - Ejecución y pruebas
 
+## Ejecución
 
-## Execução
+La aplicación se puede realizar de manera web o móvil.
 
-A execução da aplicação pode ser realizada de forma WEB ou Mobile. 
+En el menú superior, seleccione __Launch__.
 
-Na aba __Launch__.
-
-Selecione __OPEN PREVIEW PORTAL__.
+Seleccione __OPEN PREVIEW PORTAL__.
 
 ![MDK](images/img1.png)
 
-Realize o vinculo da sua aplicação mobile com o Preview.
+Haga el vínculo de su aplicación móvil con Vista previa.
 
 ![MDK](images/img2.png)
 
-E sua aplicação deve estar semelhante a essa na visão mobile:
+Y su aplicación debe ser similar a esta en la vista móvil:
 
 ![MDK](images/img3.PNG)
 ![MDK](images/img4.PNG)
 
-## Testes
+## Pruebas
 
-Separei alguns exemplos de QR para estarmos testando:
-
-#### Produto 01.
+Separé algunos ejemplos de QR para probar:
+#### Producto 01.
 
 ![MDK](images/qr1.png)
 
-#### Produto 03.
+#### Producto 03.
 
 ![MDK](images/qr2.png)
 
-### Produto 10.
+### Producto 10.
 ![MDK](images/qr3.png)
 
-## Done!
+## ¡Felicidades! Su APP está completa.

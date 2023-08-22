@@ -1,68 +1,68 @@
-# Exercício 6 - Criação da Funcionalidade de Busca por QR Code
+# Ejercicio 6 - Creación de la funcionalidad de búsqueda de código QR
 
-Nesse Step, adicionaremos a funcionalidade de buscar um produto por QR Code, utilizando a camera do dispositivo.
+En este paso, agregaremos la funcionalidad de buscar un producto por código QR utilizando la cámara del dispositivo.
 
-Para isso utilizaremos um acelerador do Build que nos axiliará nesse desafio.
+Para esto, utilizaremos un acelerador de SAP Build que nos axilará en este desafío.
 
-No canto superior esquerdo, clique no menu de navegação.
+En la esquina superior izquierda, haga clic en el menú de navegación.
 
-E selecione a home page.
+Y seleccione la página de inicio.
 
 ![MDK](images/img1.png)
 
-Selecione o botão de QR Code Scan, pois é nele que adicionaremos nossa lógica.
+Seleccione el botón de escaneo de código QR, ya que es que agregaremos nuestra lógica.
 
-E click em: __Add logic to ICON BUTTON 1__.
+Y haga clic en: __Add logic to ICON BUTTON 1__.
 
 ![MDK](images/img2.png)
 
-Repare que no nosso menu lateral esquerdo também temos nossa lojinha.
+Tenga en cuenta que en nuestro menú del lado izquierdo también tenemos nuestra tienda.
 
-Procure por __Scan QR__, e adicione ao board.
+Procure por: __Scan QR__, y agregar al tablero.
 
 ![MDK](images/img3.png)
 
-Adicione também __Open Page__, pois assim que realizarmos a leitura do Id do Produto, precisamo navegar para a página de detalhe.
+También agregar __Open Page__, Porque tan pronto como leemos la identificación del producto, necesitamos navegar a la página de detalles.
 
 ![MDK](images/img4.png)
 
-Interligue os Nodes, para que tenha um fluxo.
+Interconectar los Nodes para que tenga un flujo.
 
 ![MDK](images/img5.png)
 
-Selecione o node de open Page, e vamos alterar a pagina de abertura.
+Seleccione el Node del OpenPage y cambiemos la página de apertura.
 
-No canto direito, selecione __Page__.
+En la esquina derecha, seleccione __Page__.
 
 ![MDK](images/img6.png)
 
-Selecione __Page ID__.
+Seleccione __Page ID__.
 
 ![MDK](images/img7.png)
 
-Selecione o Product Detail e __Save__.
+Seleccione el detalle del producto y __Save__.
 ![MDK](images/img8.png)
 
-Agora iremos selecionar o que irá conter no __ID Product__.
-Utilizaremos uma variavel de outro node, que será do Scan QR.
+Ahora seleccionaremos lo que contendrá en el __ID Product__.
+Usaremos una variable de otro nodo, que será de Scan QR.
 
-Selecione __Output value of another node__.
+Seleccione __Output value of another node__.
 
 ![MDK](images/img10.png)
 
-Selecione __Scan QR/barcode__.
+Seleccione __Scan QR/barcode__.
 
 ![MDK](images/img11.png)
 
-Selecione também o objeto __Scan QR/barcode content__.
+También seleccione el objeto __Scan QR/barcode content__.
 
-E salve.
+E guarde.
 
 ![MDK](images/img13.png)
 
-Pronto! Agora temos nossa funcionalidade de busca por QR pronta. Salve seu App e está pronto para testar.
+¡Listo! Ahora tenemos nuestra funcionalidad de búsqueda QR lista. Guarde su aplicación y esté listo para probar.
 
 ![MDK](images/img14.png)
 
-## Próximo Passo:
-[Exercício 07 - Execução e Testes](/exercises/ex7/README.md)
+## Proximo paso:
+[Ejercicio 07 - Ejecución y pruebas](/exercises/ex7/README.md)

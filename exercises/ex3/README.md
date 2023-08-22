@@ -1,137 +1,134 @@
-# Exercício 3 - Criação da Home Page
+# Ejercicio 3 - Creación de la página de inicio
 
-Agora estamos na hora mágica, vamos customizar nosso formulário.
+Ahora estamos en el tiempo mágico, personalizamos nuestra forma.
 
-Vamos começar alterando o titulo, para __Product List__
+Comencemos por cambiar el título, a __Product List__
 
 ![MDK](images/img1.png)
 
-Não utilizaremos esse campo de texto, clique encima dele, e clique no __X__ para remover.
+No usaremos este campo de texto, haremos clic en él y haremos clic en el __X__ para remover.
 
 ![MDK](images/img2.png)
 
-Precisamos agora de um Icon button, para adiciona-lo aos nosso objetos disponiveis.
+Ahora necesitamos un botón de icono para agregarlo a nuestros objetos disponibles.
 
-Clique em __Marketplace__ para acessar a lojinha do SAP Build.
+Clickea en __Marketplace__ Para acceder a la tienda SAP Build.
 
 ![MDK](images/img3.png)
 
-Procure por __button__.
+Búsqueda por __button__.
 
-Selecione __Icon Button__.
+Seleccionar __Icon Button__.
 
 ![MDK](images/img4.png)
 
-Com o Icon Button selecionado, clique em __Install__.
+Con el botón de icono seleccionado, haga clic __Install__.
 
 ![MDK](images/img5.png)
 
-Com o icon button disponivel em nossa grade de objetos, adicionaremos ao canvas.
+Con el botón de icono disponible en nuestra cuadrícula de objetos, agregaremos al Canvas.
 
 ![MDK](images/img6.png)
 
-Altere seu Conteúdo e Icon
-
+Cambia tu contenido e icono
 ![MDK](images/img7.png)
 
-Para a alteração do icone, selecione __Icon__.
+Para el cambio de icono, seleccione __Icon__.
 
 ![MDK](images/img8.png)
 
-Procure por qr, e selecione o icone.
+Busque QR y seleccione el icono.
 
 ![MDK](images/img9.png)
 
-Agora vamos adicionar a lista, que irá renderizar todos os produtos.
+Ahora agregemos la lista, que representará todos los productos.
 
-No menu lateral esquerdo, selecione __Core__, encontre o objeto __Icon list Item__, e adicione ao canvas.
+En el menú del lado izquierdo, seleccione __Core__, Encuentra el objeto __Icon list Item__, y agregar al Canva.
 
 ![MDK](images/img10.png)
 
-Troque o icone da lista para um que faça sentido com produto, no meu cenário utilizarei o icone de caixa disponivel na biblioteca Fiori de icones.
+Intercambie el icono de la lista a uno que tenga sentido con el producto, en mi escenario usaré el icono de efectivo disponible en la biblioteca de iconos Fiori.
 
 ![MDK](images/img11.png)
 
-Selecione __Icon__.
+Seleccionar __Icon__.
 
 ![MDK](images/img12.png)
 
-Altere para Biblioteca Fiori de Icons.
+Cambiar a la biblioteca Fiori Icons.
 
 ![MDK](images/img13.png)
 
-Selecione o icone de Caixa.
+Seleccione el cajero.
 
 ![MDK](images/img14.png)
 
-Para alimentar a lista, precisamos vincular a Lista ao Data Variable.
+Para cargar la lista, necesitamos vincular la lista a la Data Variables.
 
-Clique em Repeat With.
+Clickea en __Repeat With__.
 
 ![MDK](images/img15.png)
 
-Selecione __Data and Variables__.
+Seleccionar __Data and Variables__.
 
 ![MDK](images/img16.png)
 
-Selecione __Data variable__.
+Seleccionar __Data variable__.
 
 ![MDK](images/img17.png)
 
-Selecione __dv_products__.
-E salve a seleção.
+Seleccionar __dv_products__.
+Y guarda la selección.
 
 ![MDK](images/img18.png)
 
-Agora temos nossa lista com os elementos de repeat carregados, vamos alterar a label para relacionar com o elemento de carga.
+Ahora tenemos nuestra lista con los elementos repetidos cargados, cambiemos la etiqueta para relacionarnos con el elemento de carga.
 
-Em primary label, selecione.
+En la etiqueta primaria, seleccione.
 
 ![MDK](images/img19.png)
 
-Selecione __Data item in repeat__.
+Seleccionar __Data item in repeat__.
 
 ![MDK](images/img20.png)
 
-Procure o elemento Name, que é o dado principal para exibir na lista.
+Busque el elemento de nombre, que son los datos principales que se muestran en la lista.
 
-Selecione __current__.
+Seleccionar __current__.
 
-Selecione __Name__.
+Seleccionar __Name__.
 
 ![MDK](images/img21.png)
 
-Altere também o Set Preview value para:
-```ProductName```
+También cambie el valor de vista previa establecida a: ```ProductName```
  
-E salve.
+Y guarde los cambios.
 
 ![MDK](images/img22.png)
 
-Vamos alterar também a Secondary Label, para o preço.
+También cambiaremos la etiqueta secundaria al precio.
 
 ![MDK](images/img23.png)
 
-Selecione __Data item in repeat__.
+Seleccionar __Data item in repeat__.
 
 ![MDK](images/img24.png)
 
-Procure o elemento Price, que é o dado secundário para exibir na lista.
+Busque el elemento de precio, que son los datos secundarios que se muestran en la lista.
 
-Selecione __current__.
+Seleccionar __current__.
 
-Selecione __Price__.
+Seleccionar __Price__.
 
 ![MDK](images/img25.png)
 
-Clique em __SAVE__.
+Clickea en __SAVE__.
 
 ![MDK](images/img26.png)
 
-Por fim, salve sua Home Page, construida por Completo.
-
+Finalmente, guarde su página de inicio, completamente construida.
 ![MDK](images/img27.png)
 
-## Próximo Passo:
+## Proximo paso:
 
-[Exercício 04 -  Navegação entre Home Page e Detail](/exercises/ex4/README.md)
+[Ejercicio 04 - Navegación entre la página de inicio y la página de detalles del producto](/exercises/ex4/README.md)

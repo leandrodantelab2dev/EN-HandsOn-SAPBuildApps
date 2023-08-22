@@ -1,82 +1,81 @@
-## Exercicio 5 -  Criação da Detail Page
+## Ejercicio 05 - Creación de la página de detalles del producto
 
-Neste step iremos customizar o formulário de Detail Product.
+En este paso, personalizaremos el formulario de producto detallado.
 
-No menu de paginas, no canto superior esquerdo.
+Que está en el menú de páginas en la esquina superior izquierda.
 
-Selecione a página, __Product Detail__.
+Seleccione la página, __Product Detail__.
 
 ![MDK](images/img1.png)
 
-Vamo inicialmente configurar os Dados.
-
-No switch button selecione variables.
+Inicialmente configuremos los datos.
+Haga clic en el interruptor del botón Seleccionar variables.
 
 ![MDK](images/img2.png)
 
-No menu lateral, selecione __Data Variables__.
+En el menú lateral, seleccione __Data Variables__.
 
-Adicione um Data Variable, __Products__.
+Agrega uno Data Variable, __Products__.
 
 ![MDK](images/img3.png)
 
-Renomeie o Data Variable.
+Cambie el nombre de Data Variable.
 ```dv_products_item```
 
-Selecione o Single data record, porque precisamos apenas de um registro.
+Selecciona el __Single data record__, Porque solo necesitamos un registro.
 
-E qual é o filtro para selecionar o ID, referenciaremos do Data Parameter, que virá da Home Page.
+Y cuál será el filtro para seleccionar la ID, nos referiremos al parámetro de datos, que vendrá de la página de inicio.
 
-Clique em __ID__.
+clickea en __ID__.
 
 ![MDK](images/img4.png)
 
-Selecione __Formula__.
+Seleccione __Formula__.
 
 ![MDK](images/img5.png)
 
-Selecione __Create Formula__.
+Seleccione __Create Formula__.
 
 ![MDK](images/img6.png)
 
-E adicione como valor:
+Y agregar como valor:
 
 ```NUMBER(params.idproduct)```
 
-E salve.
+Y mantener la fórmula.
 
 ![MDK](images/img7.png)
 
-Voltaremos para a __View__, para editar o formulário.
-Remova o texto que não utilizaremos.
+Volveremos a __View__,Para editar el formulario. 
+ Elimine el texto que no usaremos.
 
 ![MDK](images/img8.png)
 
-Altere o conteúdo do titulo para o productName que virá do Data Variable.
+Cambie el contenido del título al nombre de producto que vendrá de la variable de datos.
 
 ![MDK](images/img9.png)
 
-Selecione __Data and Variables__.
+Seleccione __Data and Variables__.
 
 ![MDK](images/img10.png)
 
-Selecione __Data variable__.
+Seleccione __Data variable__.
 
 ![MDK](images/img11.png)
 
-Selecione __dv_products_item__.
+Seleccione __dv_products_item__.
 
-E __Name__.
+Y __Name__.
 
 ![MDK](images/img12.png)
 
-Salve o bind do nome do produto.
+Guardar el Bind del nombre del producto.
 
 ![MDK](images/img13.png)
 
-Coloque um titulo como cabeçalho para as descrições do produto.
+Pon un título como encabezado para descripciones de productos.
 
-Altere na aba Style sua tipografia, como H3.
+Cambie la pestaña de estilo su tipografía, como H3.
 
 ![MDK](images/img14.png)
 
@@ -90,39 +89,39 @@ Neste caso precisamos de um Star Rating.
 
 ![MDK](images/img16.png)
 
-Na loja busque __rating__.
+En la tienda Búsqueda de: __rating__.
 
-E selecione __Star Rating__.
+Y seleccionar __Star Rating__.
 
 ![MDK](images/img17.png)
 
-Clique em __Install__.
+Clickea en__Install__.
 
 ![MDK](images/img18.png)
 
-Agora disponivel como elemento de página, adicione ao Canvas; Altere o maximum value para 5; E altere o bind value.
+Ahora disponible como elemento de página, agregue al canvas; Cambiar el valor máximo a 5; Y cambiar el valor de enlace.
 
 ![MDK](images/img19.png)
 
-Selecione __Data and Variables__.
+Seleccione __Data and Variables__.
 
 ![MDK](images/img20.png)
 
-Selecione __Data variables__.
+Seleccione __Data variables__.
 
 ![MDK](images/img21.png)
 
-Selecione a data variable configurada.
+Seleccione la data variable configurado.
 
-E selecione o __Rating__.
+Y seleccione el __Rating__.
 
 ![MDK](images/img22.png)
 
-Salve a seleção.
+Guarde la selección.
 
-Para os demais campos, faça o mesmo até termos o formulário completo.
+Para los otros campos, haga lo mismo hasta que tengamos la forma completa.
 
-Sendo os valores:
+Siendo los valores:
 - Product ID.
 - Price.
 - Release Date.
@@ -137,7 +136,7 @@ Sendo os valores:
 ![MDK](images/img30.png)
 ![MDK](images/img31.png)
 
-Com o formulário de Product Detail temos nossa segunda funcionalidade concluida.
+Con el formulario de detalle del producto tenemos nuestra segunda funcionalidad completada.
 
-## Próximo Passo:
-[Exercício 06 - Criação da Funcionalidade de Busca por QR Code](/exercises/ex6/README.md)
+## Proximo paso:
+[Ejercicio 06 - Creación de la funcionalidad de búsqueda de código QR](/exercises/ex6/README.md)

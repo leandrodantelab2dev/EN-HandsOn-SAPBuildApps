@@ -1,85 +1,84 @@
-# Exercício 4 - Navegação entre Home Page e Detail
+# Ejercicio 04 - Navegación entre la página de inicio y la página de detalles del producto
 
-Neste step vamos construir a navegação entre a HomePage e a DetailPage, onde irá conter os dados do produto de forma detalhada.
+En este paso, construiremos la navegación entre la página de inicio y los detalles, donde contendrá los datos del producto en detalle.
 
-No canto superior esquerdo, clique em __Home Page__, para acessar a sumarização de todas as páginas.
+En la esquina superior izquierda, haga clic __Home Page__, Para acceder al resumen de todas las páginas.
 
 ![MDK](images/img1.png)
 
-Adicione uma nova página, clique em __ADD NEW PAGE__.
+Agregue una nueva página, haga clic en __ADD NEW PAGE__.
 
 ![MDK](images/img2.png)
 
-Nomeie como Product Detail.
-Clique em __OK__.
+Nombre como Product Detal.
+Clickea en __OK__.
 
 ![MDK](images/img3.png)
 
-Com a nova página criada, acesse as variavéis para configurar as PAGE PARAMETERS.
+Con la nueva página creada, vaya a las variantes para configurar el PAGE PARAMETERS.
 
 ![MDK](images/img4.png)
 
-No menu lateral esquerdo, selecione __PAGE PARAMETERS__.
+En el menú del lado izquierdo, seleccione __PAGE PARAMETERS__.
 
 Clique __ADD PARAMETERS__.
 
-Configure o nome do Parameter como:
-
+Configure el nombre del parámetro como:
 ```idproduct```
 
 ![MDK](images/img5.png)
 
-Volte para o editor gráfico, clicando no switch button.
+Vuelva al editor gráfico haciendo clic en el Switch Button.
 
 ![MDK](images/img6.png)
 
-Acesse o menu de navegação clicando no canto superior esquerdo, na label azul.
+Acceda al menú de navegación haciendo clic en la esquina superior izquierda, en la etiqueta azul.
 
-E navegue para a home page, para adicionar a lógica de navegação..
+Y navegue a la página de inicio, para agregar la lógica de navegación.
 
 ![MDK](images/img7.png)
 
-Selecione a lista de produtos para adicionar lógica.
+Seleccione la lista de productos para agregar lógica.
 
-Clique em: __Add logic to ICON LIST ITEM 1__.
+Clickea en: __Add logic to ICON LIST ITEM 1__.
 
 ![MDK](images/img8.png)
 
-Nos elementos de lógica adicione: __Open page__.
+En los elementos de la lógica, agregue:__Open page__.
 
-E conecte o evento para o navegation.
+Y conecte el evento a la navegación.
 
 ![MDK](images/img9.png)
 
-Selecione a pagina que irá abrir, em __Page__.
+Seleccione la página que se abrirá por:__Page__.
 
 ![MDK](images/img10.png)
 
-Selecione a página __Product Detail__ e __Save__.
+Seleccione la página __Product Detail__ e __Save__.
 
 ![MDK](images/img11.png)
 
-Habilitará um campo: __idproduct__.
+Habilitará un campo: __idproduct__.
 
-Selecione qual o elemento que irá aplicar como valor.
+Seleccione qué elemento se aplicará como valor.
 
 ![MDK](images/img12.png)
 
-Selecione __Formula__.
+Seleccione __Formula__.
 
 ![MDK](images/img13.png)
 
-Selecione __Create formula__.
+Seleccione __Create formula__.
 
 ![MDK](images/img14.png)
 
-Preencha no campo:
+Complete el campo:
 
 STRING(repeated.current.ID)
 
-E salve a fórmula.
+Y guardar la fórmula.
 
 ![MDK](images/img15.png)
 
-## Próximo Passo:
-[Exercício 05 - Criação da Detail Page](/exercises/ex5/README.md)
+## Proximo paso:
+[Ejercicio 05 - Creación de la página de detalles del producto](/exercises/ex5/README.md)

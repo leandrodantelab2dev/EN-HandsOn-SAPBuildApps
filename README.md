@@ -1,11 +1,10 @@
 # HandsOn-SAPBuildApps
 
 ## Descrição
-Neste HandsOn será a construção de uma aplicação de Lista de Produtos com a funcionalidade da busca de produto com QRCode.
+En este prácticos será la construcción de una aplicación de lista de productos con la funcionalidad de la búsqueda de productos con QRCode.
+Utilizaremos el servicio Odata Northwind, como nuestro back-end.
 
-Utilizando oData Service Northwind.
-
-Documentação da SAP sobre SAP Build Apps:
+Documentación de SAP sobre SAP Build APPs
 https://help.sap.com/docs/build-apps
 
 >   
@@ -14,10 +13,10 @@ https://help.sap.com/docs/build-apps
 > -- <cite>**SAP Documentation**</cite>
 ## Requisitos
 
-Para a realização do HandsOns é necessário a criação prévia de um ambiente com o SAP Build.
-Antes do treinamento foi realizado a criação dos usuários no IAS da Lab2Dev.
+Para la realización de lo práctico, es necesario crear un entorno con SAP Build.
+Antes de la capacitación, los usuarios fueron creados en IAS de LAB2DEV.
 
-Necessário também a instalação do **SAP Build Apps Preview**
+También la instalación del **SAP Build Apps Preview**
 
 **ANDROID**:
 https://play.google.com/store/apps/details?id=com.sap.appgyver.preview.release&hl=pt_BR&gl=US&pli=1
@@ -29,11 +28,11 @@ https://apps.apple.com/us/app/sap-build-apps-preview/id1585856868
 
 https://dev-amazon-web-services-ncm543yw.us10.build.cloud.sap/lobby
 
-## Exercícios
-- [Exercício 01 - Criação do APP e Configuração Inicial de Tema](exercises/ex1/README.md)
-- [Exercício 02 - Configuração do Data Provider](exercises/ex2/README.md)
-- [Exercício 03 - Criação da Home Page](exercises/ex3/README.md)
-- [Exercício 04 -  Navegação entre Home Page e Detail](exercises/ex4/README.md)
-- [Exercício 05 - Criação da Detail Page](exercises/ex5/README.md)
-- [Exercício 06 - Criação da Funcionalidade de Busca por QR Code](exercises/ex6/README.md)
-- [Exercício 07 - Execução e Testes](exercises/ex7/README.md)
+## Ejercicios
+- [Ejercicio 01 - Creación de la aplicación y la configuración inicial del tema](exercises/ex1/README.md)
+- [Ejercicio 02 - Configuración del proveedor de datos](exercises/ex2/README.md)
+- [Ejercicio 03 - Creación de la página de inicio](exercises/ex3/README.md)
+- [Ejercicio 04 - Navegación entre la página de inicio y la página de detalles del producto](exercises/ex4/README.md)
+- [Ejercicio 05 - Creación de la página de detalles del producto](exercises/ex5/README.md)
+- [Ejercicio 06 - Creación de la funcionalidad de búsqueda de código QR](exercises/ex6/README.md)
+- [Ejercicio 07 - Ejecución y pruebas](exercises/ex7/README.md)
